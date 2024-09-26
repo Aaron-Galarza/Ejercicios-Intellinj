@@ -13,5 +13,6 @@ public class Ejercicio1 {
 
         System.out.println("El precio del boleto es: $" + precio);
         sc.close();
+        System.out.println("Gracias y que tenga un buen viaje :)");
     }
 }
