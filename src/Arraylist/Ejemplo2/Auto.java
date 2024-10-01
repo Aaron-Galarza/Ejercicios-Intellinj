@@ -1,6 +1,6 @@
-package Arraylist;
+package Arraylist.Ejemplo2;
 
-public class Auto {
+  class Auto  {
 
     private String patente;
     private String color;

@@ -1,6 +1,4 @@
-package Arraylist.Colecciones;
-
-import Arraylist.Auto;
+package Arraylist.Colecciones.Algoritmos;
 
 import java.util.ArrayList;
 

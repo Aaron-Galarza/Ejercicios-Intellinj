@@ -1,8 +1,5 @@
 package Arraylist.Colecciones.Algoritmos;
 
-import Arraylist.Auto;
-import Arraylist.Colecciones.Concesonaria;
-
 public class Principal {
     public static void main(String[] args){
 

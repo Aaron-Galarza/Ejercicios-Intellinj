@@ -1,6 +1,5 @@
 package Arraylist.Ejemplo2;
 
-import Arraylist.Auto;
 
 import java.util.ArrayList;
 
