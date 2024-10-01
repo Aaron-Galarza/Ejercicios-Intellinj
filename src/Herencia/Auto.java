@@ -1,9 +1,22 @@
 package Herencia;
 
- class Auto extends Vehiculo {
+    class Auto extends Vehiculo {
     boolean tieneAire;
 
-    void prenderAire(){
+    public Auto(String marca, String modelo, String patente){
+        super(marca, modelo, patente);
+    }
+
+    public Auto(){
+        super();
+    }
+
+     public Auto(String marca, String modelo, String patente, boolean tieneAire) {
+         super(marca, modelo, patente);
+         this.tieneAire = tieneAire;
+     }
+
+     void prenderAire(){
         if (tieneAire){
             System.out.println("Encendiendo aire...");
         } else {

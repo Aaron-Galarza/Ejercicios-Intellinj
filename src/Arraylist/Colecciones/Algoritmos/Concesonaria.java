@@ -2,7 +2,7 @@ package Arraylist.Colecciones.Algoritmos;
 
 import java.util.ArrayList;
 
-public class Concesonaria {
+ class Concesonaria {
 
     private String nombre;
     private ArrayList<Auto> autos;

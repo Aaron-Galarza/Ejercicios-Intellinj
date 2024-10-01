@@ -1,6 +1,6 @@
 package Arraylist.Colecciones.Algoritmos;
 
-  class Auto {
+   class Auto {
 
     private String patente;
     private String color;

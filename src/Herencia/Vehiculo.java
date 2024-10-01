@@ -1,10 +1,20 @@
 package Herencia;
 
-public class Vehiculo {
+ class Vehiculo {
 
     private String marca;
     private String modelo;
     private String patente;
+
+    public Vehiculo(String marca, String modelo, String patente) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.patente = patente;
+    }
+
+    public Vehiculo(){
+
+    }
 
     public void acelerar(){
         System.out.println("Acelerando...");
@@ -45,5 +55,14 @@ public class Vehiculo {
 
     public void setPatente(String patente) {
         this.patente = patente;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", patente='" + patente + '\'' +
+                '}';
     }
 }
