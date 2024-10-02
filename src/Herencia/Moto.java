@@ -1,6 +1,6 @@
 package Herencia;
 
- class Moto extends Vehiculo {
+ public class Moto extends Vehiculo {
     int anchoManubrio;
 
     public Moto(String marca, String modelo, String patente){

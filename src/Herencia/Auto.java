@@ -1,6 +1,6 @@
 package Herencia;
 
-    class Auto extends Vehiculo {
+    public class Auto extends Vehiculo {
     boolean tieneAire;
 
     public Auto(String marca, String modelo, String patente){
