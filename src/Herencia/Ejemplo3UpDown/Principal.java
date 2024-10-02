@@ -1,6 +1,6 @@
-package Herencia;
+package Herencia.Ejemplo3UpDown;
 
-import Herencia.UpcastingDowncasting.Concesionaria;
+import Herencia.Ejemplo3UpDown.UpcastingDowncasting.Concesionaria;
 
 public class Principal {
     public static void main(String[] args){

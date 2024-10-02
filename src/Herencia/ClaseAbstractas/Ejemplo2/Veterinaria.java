@@ -1,11 +1,14 @@
 package Herencia.ClaseAbstractas.Ejemplo2;
 
 class Veterinaria {
-    // declare hola mundo
     public static void main(String[] args) {
-        Gato gato = new Gato();
+        Mascota gato = new Gato("Max");
+
         gato.tipoDeAnimal();
         gato.emitirSonido();
+
+        System.out.println(gato.getNombre());
+
     }
 }
 
@@ -27,13 +30,14 @@ abstract class Mascota {
 
 class Gato extends Mascota {
 
-    public Gato() {
-        super("Gato");
+
+    public Gato(String nombre) {
+        super(nombre);
     }
 
     @Override
     public void tipoDeAnimal() {
-        System.out.println("Soy un gato");
+        System.out.println("Soy un felino");
     }
 
     @Override

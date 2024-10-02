@@ -1,4 +1,4 @@
-package Herencia;
+package Herencia.Ejemplo3UpDown;
 
  public abstract class Vehiculo {
 

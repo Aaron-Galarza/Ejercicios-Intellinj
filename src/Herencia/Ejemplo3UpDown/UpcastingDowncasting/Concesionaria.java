@@ -1,6 +1,6 @@
-package Herencia.UpcastingDowncasting;
-import Herencia.Auto;
-import Herencia.Vehiculo;
+package Herencia.Ejemplo3UpDown.UpcastingDowncasting;
+import Herencia.Ejemplo3UpDown.Auto;
+import Herencia.Ejemplo3UpDown.Vehiculo;
 
 import java.util.ArrayList;
 

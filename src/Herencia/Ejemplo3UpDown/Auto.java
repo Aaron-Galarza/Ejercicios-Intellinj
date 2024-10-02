@@ -1,4 +1,4 @@
-package Herencia;
+package Herencia.Ejemplo3UpDown;
 
     public class Auto extends Vehiculo {
     boolean tieneAire;

@@ -17,6 +17,8 @@ abstract class Figura {
         this.color = color;
     }
 
+
+    //Metodo abstracto
     abstract double calcularArea();
 
     public String getColor() {
@@ -37,6 +39,7 @@ class Circulo extends Figura {
         this.radio = radio;
     }
 
+    //Polimorfismo del metodo abstracto
     @Override
     double calcularArea() {
         return Math.PI * radio * radio;
@@ -52,6 +55,7 @@ class Rectangulo extends Figura {
         this.alto = alto;
     }
 
+    //Polimorfismo del metodo abstracto
     @Override
     double calcularArea() {
         return ancho * alto;
