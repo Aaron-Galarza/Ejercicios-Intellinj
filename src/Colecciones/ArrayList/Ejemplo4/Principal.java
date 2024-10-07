@@ -1,4 +1,4 @@
-package Arraylist.Colecciones.Algoritmos;
+package Colecciones.ArrayList.Ejemplo4;
 
 public class Principal {
     public static void main(String[] args){

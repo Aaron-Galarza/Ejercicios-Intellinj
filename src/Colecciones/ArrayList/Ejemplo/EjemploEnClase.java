@@ -1,4 +1,4 @@
-package Arraylist.Ejemplo;
+package Colecciones.ArrayList.Ejemplo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,10 +11,8 @@ public class EjemploEnClase {
         public static void main(String[] args) {
 
             // Clase 21/05/24 Martes
-            // Ingresar y quitar elementos de arraylist
 
             // Se carga una lista conformada por enteros
-
             int[] enteros = {1, 4, 3, 2, 5};
             System.out.println(Arrays.toString(enteros));
 
@@ -38,21 +36,6 @@ public class EjemploEnClase {
             ListaNombres.add("b");
             ListaNombres.add("c");
 
-        /*
-        ListaNombres.add(index:2, element:"test");
-
-        Stack<Integer> pila = new Stack <Integer>();
-        // Metodos de pilas : push, pop, peek
-
-        // pop saca el ultimo elemento ingresado
-        pila.push(item:10);
-        pila.push(item:20);
-        System.out.println(pila.peek());
-        // peek toma el ultimo elemento
-        pila.pop();
-
-        Queue<Integer> cola = new Queue<Integer>();
-        */
 
         }
 

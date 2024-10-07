@@ -1,4 +1,4 @@
-package Arraylist.Colecciones.Algoritmos;
+package Colecciones.ArrayList.Ejemplo4;
 
 import java.util.ArrayList;
 

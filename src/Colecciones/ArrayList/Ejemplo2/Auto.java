@@ -1,4 +1,4 @@
-package Arraylist.Ejemplo2;
+package Colecciones.ArrayList.Ejemplo2;
 
   class Auto  {
 
