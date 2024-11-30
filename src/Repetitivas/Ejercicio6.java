@@ -1,7 +1,4 @@
 package Repetitivas;
-
-import com.sun.org.apache.xpath.internal.operations.Div;
-
 import java.util.Scanner;
 
 public class Ejercicio6 {
